@@ -1,0 +1,15 @@
+{
+  "name": "u-agent-open-source",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open-source-safe local mock scaffold for U Agent",
+  "license": "MIT",
+  "scripts": {
+    "backend": "node backend-mock/server.js",
+    "frontend": "node scripts/serve-frontend.js",
+    "frontend:open": "node scripts/serve-frontend.js --open",
+    "start": "node scripts/launch-open-source.js",
+    "start:open": "node scripts/launch-open-source.js --open",
+    "smoke": "node --check backend-mock/server.js && node --check frontend-demo/app.js && node --check scripts/serve-frontend.js && node --check scripts/launch-open-source.js"
+  }
+}

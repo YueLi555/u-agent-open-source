@@ -1,0 +1,61 @@
+{
+  "threads": [
+    {
+      "id": "thread_demo_001",
+      "customer": "Avery Park",
+      "subject": "Question about workspace invitations",
+      "status": "open",
+      "summary": "Needs help understanding why a teammate invitation is pending.",
+      "messages": [
+        {
+          "role": "customer",
+          "author": "Avery Park",
+          "time": "09:12",
+          "body": "I invited a teammate to our workspace, but the invite still says pending. Can someone confirm what they should check?"
+        },
+        {
+          "role": "agent",
+          "author": "Support",
+          "time": "09:18",
+          "body": "Thanks for reaching out. I can help check the expected invite flow and next steps."
+        }
+      ]
+    },
+    {
+      "id": "thread_demo_002",
+      "customer": "Mina Cole",
+      "subject": "Notification settings are too noisy",
+      "status": "open",
+      "summary": "Wants fewer alerts for low-priority workspace updates.",
+      "messages": [
+        {
+          "role": "customer",
+          "author": "Mina Cole",
+          "time": "10:04",
+          "body": "I like the updates, but I am getting too many notifications for small workspace changes."
+        }
+      ]
+    },
+    {
+      "id": "thread_demo_003",
+      "customer": "Jordan Hale",
+      "subject": "Export file did not include archived notes",
+      "status": "open",
+      "summary": "Needs clarification about what the local export includes.",
+      "messages": [
+        {
+          "role": "customer",
+          "author": "Jordan Hale",
+          "time": "11:27",
+          "body": "The export finished, but I expected the archived notes to be included. Is there a setting I missed?"
+        },
+        {
+          "role": "agent",
+          "author": "Support",
+          "time": "11:35",
+          "body": "I can walk through the mock export options and help confirm which note states are included."
+        }
+      ]
+    }
+  ]
+}

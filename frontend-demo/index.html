@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>U Agent Mock Console</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="Thread queue">
+        <div class="brand-row">
+          <div class="brand-mark" aria-hidden="true">U</div>
+          <div>
+            <h1>U Agent</h1>
+            <p>Mock support console</p>
+          </div>
+        </div>
+        <div class="queue-toolbar">
+          <button class="toolbar-button is-active" type="button">Open</button>
+          <button class="toolbar-button" type="button">Drafted</button>
+          <button class="toolbar-button" type="button">Closed</button>
+        </div>
+        <div id="threadList" class="thread-list"></div>
+      </aside>
+
+      <section class="conversation-panel" aria-label="Selected customer thread">
+        <header class="panel-header">
+          <div>
+            <p class="eyebrow">Selected thread</p>
+            <h2 id="threadTitle">Loading mock data</h2>
+          </div>
+          <span id="threadStatus" class="status-pill">Local</span>
+        </header>
+
+        <div id="messageList" class="message-list"></div>
+      </section>
+
+      <aside class="assistant-panel" aria-label="Assistant draft">
+        <header>
+          <p class="eyebrow">Assistant</p>
+          <h2>Draft reply</h2>
+        </header>
+        <div id="draftBox" class="draft-box"></div>
+        <button id="refreshDraft" class="primary-button" type="button">Regenerate mock draft</button>
+        <section class="safety-card" aria-label="Safety notes">
+          <h3>Safety notes</h3>
+          <ul>
+            <li>Uses fake customer data only.</li>
+            <li>Runs locally with deterministic responses.</li>
+            <li>Does not call external services.</li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
