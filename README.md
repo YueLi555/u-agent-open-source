@@ -2,6 +2,10 @@
 
 This is an open-source-safe starter folder for U Agent. It is a local, mock-only demo scaffold intended to show the product shape without exposing private infrastructure, customer data, credentials, paid service code, native app packaging assets, or live third-party integrations.
 
+# Download APP and Read the Website 
+Download on Apple store: U Agent
+Website: uagent.app
+
 ## What Is Included
 
 - Static frontend demo for reviewing a fake support workflow.
